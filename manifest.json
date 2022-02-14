@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "KuesionerDosenAuto",
+  "version": "1.0.0",
+  "description": "Auto nilai kuesioner dosen di siakad STMIK Komputama Majenang",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": [
+        "http://siakad.stmikkomputama.ac.id/mhs_kuesioner_dosen/*",
+        "https://siakad.stmikkomputama.ac.id/mhs_kuesioner_dosen/*"
+      ]
+    }
+  ],
+
+  "icons": {
+    "16": "yy16.png",
+    "48": "yy48.png",
+    "128": "yy128.png"
+  }
+}
